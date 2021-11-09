@@ -77,3 +77,4 @@ Generated_Source
 *.txt
 *.vh2
 *.ctl
+*BUILD.log

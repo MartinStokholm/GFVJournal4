@@ -15,7 +15,8 @@
 CY_ISR_PROTO(ISR_UART_rx_handler);
 void handleByteReceived(uint8_t byteReceived);
 
-uint8_t state = 0;
+// Global state variable for switching between functionality in main for loop
+uint8_t state = 0; 
 
 int main(void)
 {
