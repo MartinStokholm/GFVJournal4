@@ -1,0 +1,6 @@
+C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\2Semester\GFV\Journal4_gruppe42\ADC-and-UART-Basic-Setup\Scale.cydsn\Scale.cyprj|96e0fb68-18e4-4c77-a10e-78ae45fb792a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|a71812c3-aeca-479d-aaf2-ed2a688051a5
+C:\Users\msldk\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|d0c30f20-46e7-4729-a34b-cd04fbc33d51
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|442af04e-f34f-4927-8604-ae25a8999ce8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e49a63c4-888e-4f65-8a18-cce8f65cdb4d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|b6b0ba0a-df89-488c-b5da-6caa5c9d66d3
