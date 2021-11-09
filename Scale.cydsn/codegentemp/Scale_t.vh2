@@ -1,5 +1,5 @@
--- Project:   C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\2Semester\GFV\Journal4_gruppe42\ADC-and-UART-Basic-Setup\Scale.cydsn\Scale.cyprj
--- Generated: 11/09/2021 12:32:19
+-- Project:   C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\2Semester\GFV\Journal4_gruppe42\GFV_LocalRepo\GFVJournal4\Scale.cydsn\Scale.cyprj
+-- Generated: 11/09/2021 13:24:25
 -- PSoC Creator  4.4
 
 ENTITY Scale IS
