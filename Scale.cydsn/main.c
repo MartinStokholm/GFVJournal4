@@ -15,6 +15,8 @@
 CY_ISR_PROTO(ISR_UART_rx_handler);
 void handleByteReceived(uint8_t byteReceived);
 
+uint8_t state = 0;
+
 int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
@@ -30,14 +32,30 @@ int main(void)
 
     for(;;)
     {
-        /* Place your application code here. */
-        if (ADC_SAR_1_IsEndConversion(ADC_SAR_1_WAIT_FOR_RESULT))
+        switch(state)
         {
-            uint16_t result = ADC_SAR_1_GetResult16();
-            snprintf(uartBuffer, sizeof(uartBuffer), "ADC result: 0x%x \r\n", result);
-            UART_1_PutString(uartBuffer);
+        case 1:
+            {
+                /* Place your application code here. */
+                if (ADC_SAR_1_IsEndConversion(ADC_SAR_1_WAIT_FOR_RESULT))
+                {
+                    uint16_t result = ADC_SAR_1_GetResult16();
+                    snprintf(uartBuffer, sizeof(uartBuffer), "ADC result: 0x%x \r\n", result);
+                    UART_1_PutString(uartBuffer);
+                }
+                CyDelay(100);
+            }
+            break;
+        case 2:
+            {
+                // do nothing   
+            }
+            break;
+            
+        default: 
+            {} 
+            break;
         }
-        CyDelay(100);
     }
 }
 
@@ -60,18 +78,20 @@ void handleByteReceived(uint8_t byteReceived)
     switch(byteReceived)
     {
         case 'q' :
-        {
-        }
-        break;
+            {
+                state = 1;
+            }
+            break;
         case 'w' :
-        {
-        }
-        break;
+            {
+                state = 0;
+            }
+            break;
         default :
-        {
-            // nothing
-        }
-        break;
+            {
+                // nothing
+            }
+            break;
     }
 }
 
