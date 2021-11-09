@@ -74,3 +74,6 @@ Generated_Source
 *.svd
 *.log
 *.zip
+*.txt
+*.vh2
+*.ctl
