@@ -45,7 +45,7 @@ int main(void)
                     uint16_t adcValue = ADC_SAR_1_GetResult16();
                     float result = (adcValue * koeficent)- offset;
                                     
-                    snprintf(uartBuffer, sizeof(uartBuffer), "ADC result: %f \r\n", result);
+                    snprintf(uartBuffer, sizeof(uartBuffer), "Vaegt i gram: %f \r\n", result);
                     UART_1_PutString(uartBuffer);
                 }
                 CyDelay(1000);
