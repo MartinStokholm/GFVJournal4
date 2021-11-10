@@ -214,8 +214,9 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\Scale.cydsn\main.c" />
 <name v=".\Scale.cydsn\Scale.cydwr" />
+<name v=".\Scale.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Scale.cydsn\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -223,7 +224,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1088, 462" SelectedTabbedMdiWindow="0a35f2dd-b50a-4177-b609-07dc8491bdaf"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="4485e0b4-24d7-450c-b8c8-6479d1d88480" /><DocumentWindow Key="C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\2Semester\GFV\Journal4_gruppe42\GFV_LocalRepo\GFVJournal4\Scale.cydsn\main.c" Guid="d9d5e8e9-968c-4fc4-91bc-36beadfbf35a" /><DocumentWindow Key="C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\2Semester\GFV\Journal4_gruppe42\GFV_LocalRepo\GFVJournal4\Scale.cydsn\Scale.cydwr" Guid="0a35f2dd-b50a-4177-b609-07dc8491bdaf" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1010, 462" SelectedTabbedMdiWindow="2307a0f4-c7b9-451f-84cd-ddbf6b2ef904"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="4485e0b4-24d7-450c-b8c8-6479d1d88480" /><DocumentWindow Key="C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\2Semester\GFV\Journal4_gruppe42\GFV_LocalRepo\GFVJournal4\Scale.cydsn\Scale.cydwr" Guid="0a35f2dd-b50a-4177-b609-07dc8491bdaf" /><DocumentWindow Key="C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\2Semester\GFV\Journal4_gruppe42\GFV_LocalRepo\GFVJournal4\Scale.cydsn\TopDesign\TopDesign.cysch" Guid="6bad8208-591e-459f-b53c-666717e326e9" /><DocumentWindow Key="C:\Users\msldk\Desktop\Uni\SoftwareTeknologi\2Semester\GFV\Journal4_gruppe42\GFV_LocalRepo\GFVJournal4\Scale.cydsn\main.c" Guid="2307a0f4-c7b9-451f-84cd-ddbf6b2ef904" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
