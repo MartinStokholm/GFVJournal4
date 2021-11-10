@@ -17,6 +17,8 @@ void handleByteReceived(uint8_t byteReceived);
 
 // Global state variable for switching between functionality in main for loop
 uint8_t state = 0; 
+int offset = 184; // offset after preload of 204g to get to linear area
+float koeficent = 0.549; // The hældning from the graph after making measurement
 
 int main(void)
 {
@@ -40,11 +42,13 @@ int main(void)
                 /* Place your application code here. */
                 if (ADC_SAR_1_IsEndConversion(ADC_SAR_1_WAIT_FOR_RESULT))
                 {
-                    uint16_t result = ADC_SAR_1_GetResult16();
-                    snprintf(uartBuffer, sizeof(uartBuffer), "ADC result: 0x%x \r\n", result);
+                    uint16_t adcValue = ADC_SAR_1_GetResult16();
+                    float result = (adcValue * koeficent)- offset;
+                                    
+                    snprintf(uartBuffer, sizeof(uartBuffer), "ADC result: %f \r\n", result);
                     UART_1_PutString(uartBuffer);
                 }
-                CyDelay(100);
+                CyDelay(1000);
             }
             break;
         case 2:
